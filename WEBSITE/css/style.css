@@ -1,0 +1,157 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#fff;
+}
+
+/*global*/
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/*header*/
+header{
+  background-image:url(img/read.jpg);
+  height:15vh;
+  background-size: cover;
+  background-position: center;
+  border-bottom:#e8491d 3px solid;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 45px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid;
+  transition: 0.6s;
+  margin: 10px;
+}
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+ul li.actives a{
+  background-color: #fff;
+  color: #000;
+}
+.logo img{
+  float: left;
+  width: 180px;
+  height: auto;
+  padding-top: 20px;
+}
+
+
+/*index.html*/
+#section1{
+	font-size: 80px; font-family: Arial, Helvetica, serif; color: #000; text-align: center; 
+	margin:0; padding: 1px; border-bottom:#e8491d 3px solid;
+	background-image: url(img/47.jpg); background-size: cover; background-attachment: fixed;
+}
+
+#section2{
+	font-size: 27px; font-family: Arial, Helvetica, serif; color: white ; text-align: center; 
+	margin:0; padding: 40px; border-bottom:#e8491d 3px solid; 	
+	background-color: #cc3333; background-size: cover; background-attachment: fixed;
+}
+
+/*content.html*/
+#section3{
+  font-size: 70px; font-family: Arial, Helvetica, serif; color: #000 ; text-align: center; 
+  margin:0; padding: 40px; border-bottom:#e8491d 3px solid;
+  background-image: url(img/47.jpg); background-size: cover; background-attachment: fixed;
+}
+
+#section4{
+	font-size: 70px; font-family: Arial, Helvetica, serif; color: white ; text-align: center; 
+	margin:0; padding: 40px; border-bottom:#e8491d 3px solid;
+	background-color: #cc3333; background-size: cover; background-attachment: fixed;
+}
+#section5{
+	font-size: 80px; font-family: Arial, Helvetica, serif; color: white ; text-align: center; 
+	margin:0; padding: 40px; border-bottom:#e8491d 3px solid;
+	background-color: #0099cc; background-size: cover; background-attachment: fixed; 
+}
+
+/*profile.html*/
+#section6{
+	font-size: 25px; font-family: Arial, Helvetica, serif; color: #000 ; text-align: center;
+	margin:0; padding: 20px; padding-bottom: 0; border-bottom:#e8491d 3px solid;
+	background-image: url(img/47.jpg); background-size: cover; background-attachment: fixed;
+  height:74vh; 
+}
+
+.social a{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  color: grey;
+  font-size: 28px;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 15px 0 0;
+}
+
+.social a:hover{
+  background: #000;
+}
+
+/*content.html*/
+#section3 h6{
+  float: left;
+}
+#section4 h6{
+  float: left;
+}
+#section5 h6{
+  float: left;
+}
+
+/*about.html*/
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+#main{
+  background-image: url(img/47.jpg);background-image: url(img/47.jpg); background-size: cover; background-attachment: fixed;
+}
+
+/*footer*/
+footer{
+  padding:0.3px;
+  color:#ffffff;
+  background-image: url(img/ironman.jpg);
+  text-align: right;
+  padding-right: 10px;
+}
+
